@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>facebook</title>
+    <style>
+        * {
+            flex-wrap: wrap;
+        }
+        body{
+            background-color: rgba(2, 2, 2, 0.05);
+        }
+
+        .container {
+            display: flex;
+            padding-top: 140px;
+            box-sizing: border-box;
+        }
+        .con {
+            padding-left: 80px;
+            display: inline-block;
+            width: 580px;
+            float: left;
+        }
+
+        .con p {
+            font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+            font-weight: 500px;
+            font-size: 30px;
+            line-height: 32px;
+
+        }
+
+        .con h1 {
+            font-size: 60px;
+            color: #0866ff;
+            /* margin-bottom: 26px; */
+        }
+        /* form{
+            padding: 30px;
+        } */
+        .fm {
+            background-color: white;
+            border: 2px solid white;
+            border-radius: 8px;
+            box-shadow: 2px 3px 5px rgb(68, 65, 65);
+            ;
+            /* margin-top: 130px; */
+            margin-left: 40px;
+            display: block;
+            margin-bottom: 40px;
+            padding: 20px;
+            width: auto;
+            float: right;
+            text-align: center;
+        }
+
+        .fm input {
+            width: 291px;
+            height: 38px;
+            margin: 10px;
+        }
+
+        .fm input:hover {
+            border: 1px solid #0866ff;
+        }
+
+        .but {
+            width: 291px;
+            height: 38px;
+            margin: 10px;
+            background-color: #0866ff;
+            font-weight: bold;
+            color: white;
+            font-size: 20px;
+            border: 2px solid #0866ff;
+            border-radius: 4px;
+        }
+
+        .but:hover {
+            background-color: #034abd;
+            border: #034abd;
+        }
+
+        .but2 {
+            border-radius: 4px;
+            width: 150px;
+            height: 38px;
+            background-color: rgb(10, 179, 10);
+            font-weight: bold;
+            color: white;
+            border: 2px solid rgb(10, 179, 10);
+        }
+
+        .but2:hover {
+            background-color: rgb(8, 155, 8);
+            border: rgb(8, 155, 8);
+        }
+
+        .fm a {
+            text-decoration: none;
+        }
+
+        .com {
+            text-align: center;
+             color: gray;
+            /* display: flex; */
+        }
+
+        .com a {
+            text-decoration: none;
+            color: black;
+            padding-top: 15px;
+            font-weight: bold;
+        }
+
+        footer {
+            /* border: 2px solid black; */
+            /* box-shadow: 0 -1px 2px gray; */
+            background-color: white;
+            margin-top: 195px;
+            color: gray;
+            font-size: medium;
+            width: auto;
+            padding: 60px;
+        }
+        .last {
+            display: flex;
+            float: left;
+            text-align: center;
+            letter-spacing: normal;
+            /* padding: 30px; */
+        }
+        li {
+            list-style-type: none;
+            margin: 4px;
+        }
+        li:hover{
+            text-decoration: underline;
+        }
+        .last li a {
+            text-decoration: none;
+            display: inline-block;
+            color: gray;
+        }
+
+        .next {
+            width: 25px;
+            height: 25px;
+            padding: 4px;
+            text-align: center;
+        }
+        .next2{
+            display: flex;
+            /* float: left; */
+        }
+        .next2 li a{
+            text-decoration: none;
+            color: gray;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="con">
+            <h1>facebook</h1>
+            <p>Facebook helps you to connect and share with the people in your life.</p>
+        </div>
+        <div class="container3">
+
+            <form action="no.pdp">
+                <div class="fm">
+                    
+                    <input type="text" name="Search" placeholder="Email address or phone number">
+                    <br>
+                    <input type="text" name="password" placeholder="Password">
+                    <br>
+                    <button class="but">Log in</button>
+                    <br>
+                    <a href="#">Forgotten password?</a>
+                    <hr>
+                <button class="but2">Creat new account</button>
+            </div>
+        </form>
+            <div class="com">
+                <a href="#">Creat a page</a>&nbsp;for a celebrity, brand or business
+                <!-- <p>for a celebrity, brand or business</p> -->
+            </div>
+    </div>
+    </div>                                         
+    <footer>
+        <div class="last">
+            <li>English (UK)</li>
+            <li><a href="#"> हिन्दी </a></li>
+            <li><a href="#"> اُردُو</a></li>
+            <li><a href="#">ਪੰਜਾਬੀ</a></li>
+            <li><a href="#">ગુજરાતી</a></li>
+            <li><a href="#">বাংলা</a></li>
+            <li><a href="#">मराठी</a></li>
+            <li><a href="#">தமிழ்</a></li>
+            <li><a href="#">తెలుగు</a></li>
+            <li><a href="#">മലയാളം</a></li>
+            <li><a href="#">ಕನ್ನಡ</a></li>
+        </div>&nbsp;
+        <button class="next">+</button>
+        <br>
+        <hr>
+        <div class="next2">
+            <li><a href="#">Sign up</a></li>
+            <li><a href="#">Log in</a></li>
+            <li><a href="#">Messenger</a></li>
+            <li><a href="#">Facebook Lite</a></li>
+            <li><a href="#">Video</a></li> 
+            <li><a href="#">Place</a></li>
+            <li><a href="#">Game</a></li>
+            <li><a href="#">Marketplace</a></li>
+            <li><a href="#">Meta Pay</a></li>
+            <li><a href="#">Meta Store</a></li>
+            <li><a href="#">Meta Quest</a></li>
+            <li><a href="#">Meta AI</a></li>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Thread</a></li>
+            <li><a href="#">Fundraiser</a></li>
+            <li><a href="#">Service</a></li>
+            <li><a href="#">Voting Information center</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Privacy Center</a></li>
+            <li><a href="#">Groups </a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Center ad</a></li>
+            <li><a href="#">Create Page</a></li>
+            <li><a href="#">Developers</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Cookies</a></li>
+            <li><a href="#">AsChoices</a></li>
+            <li><a href="#">Terms Help</a></li>
+            <li><a href="#">Contact uploading and non-user</a></li>
+        </div>
+    </footer>
+</body>
+
+</html>
