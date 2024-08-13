@@ -6,8 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>facebook</title>
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
         * {
             flex-wrap: wrap;
+            font-family: "Poppins",sans-serif;
         }
         body{
             background-color: rgba(2, 2, 2, 0.05);
@@ -26,7 +28,7 @@
         }
 
         .con p {
-            font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+            /* font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif; */
             font-weight: 500px;
             font-size: 30px;
             line-height: 32px;
@@ -34,8 +36,10 @@
         }
 
         .con h1 {
-            font-size: 60px;
+            font-size: 55px;
+            font-weight: 700;
             color: #0866ff;
+           
             /* margin-bottom: 26px; */
         }
         /* form{
@@ -45,21 +49,25 @@
             background-color: white;
             border: 2px solid white;
             border-radius: 8px;
-            box-shadow: 2px 3px 5px rgb(68, 65, 65);
+            box-shadow: 1px 1px 5px rgb(68 65 65 / 33%);
             ;
             /* margin-top: 130px; */
             margin-left: 40px;
             display: block;
             margin-bottom: 40px;
-            padding: 20px;
+            padding: 5px;
+            padding-bottom: 20px;
             width: auto;
+            height: 320px;
             float: right;
             text-align: center;
         }
 
         .fm input {
-            width: 291px;
-            height: 38px;
+            width: 350px;
+            height: 45px;
+            border-radius: 5px;
+            border: solid 1px rgb(68 65 65 / 33%);
             margin: 10px;
         }
 
@@ -68,8 +76,8 @@
         }
 
         .but {
-            width: 291px;
-            height: 38px;
+            width: 350px;
+            height: 48px;
             margin: 10px;
             background-color: #0866ff;
             font-weight: bold;
@@ -86,12 +94,14 @@
 
         .but2 {
             border-radius: 4px;
-            width: 150px;
-            height: 38px;
-            background-color: rgb(10, 179, 10);
+            margin-top: 20px;
+            width: 200px;
+            height: 48px;
+            background-color: #36a420;
             font-weight: bold;
+            font-size: 15px;
             color: white;
-            border: 2px solid rgb(10, 179, 10);
+            border: 2px solid #36a420;
         }
 
         .but2:hover {
@@ -101,8 +111,14 @@
 
         .fm a {
             text-decoration: none;
+            font-size: small;
+            color: #0866ff;
+            line-height: 10px ;
         }
+        .fm a:hover{
+            text-decoration: underline;
 
+        } 
         .com {
             text-align: center;
              color: gray;
@@ -160,6 +176,14 @@
             text-decoration: none;
             color: gray;
         }
+        .Email{
+            padding-left: 10px;
+            font-size: medium;
+        }
+        .pass{
+            padding-left: 10px;
+            font-size: medium;
+        }
     </style>
 </head>
 
@@ -174,9 +198,9 @@
             <form action="no.pdp">
                 <div class="fm">
                     
-                    <input type="text" name="Search" placeholder="Email address or phone number">
+                    <input class="Email" type="text" name="Search" placeholder="Email address or phone number">
                     <br>
-                    <input type="text" name="password" placeholder="Password">
+                    <input class="pass" type="text" name="password" placeholder="Password">
                     <br>
                     <button class="but">Log in</button>
                     <br>
