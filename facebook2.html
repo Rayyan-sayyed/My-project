@@ -5,8 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>facebook</title>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    <style>@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
         * {
             flex-wrap: wrap;
             font-family: "Poppins",sans-serif;
@@ -14,8 +13,189 @@
         body{
             background-color: rgba(2, 2, 2, 0.05);
         }
-
+        @media(max-width:500px){
+            
         .container {
+            display: flex;
+            padding-top: 140px;
+            box-sizing: border-box;
+            justify-content: center;
+            align-items: center;
+        }
+        .container3{
+            display: contents;
+        }
+        .con {
+            padding-left: 50px;
+            display: inline-block;
+            width: 580px;
+            float: left;
+        }
+
+        .con p {
+            /* font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+            font-weight: 500px;
+            font-size: 30px;
+            line-height: 32px; */
+            display: block;
+        }
+
+        .con h1 {
+            /* font-size: 55px;
+            font-weight: 700; */
+            color: #0866ff;
+            justify-content: center;
+           text-align: center;
+           margin-right: 40px;
+           
+        }
+        /* form{
+            padding: 30px;
+        } */
+        .fm {
+            background-color: white;
+            border: 2px solid white;
+            border-radius: 8px;
+            box-shadow: 1px 1px 5px rgb(68 65 65 / 33%);
+            ;
+            /* margin-top: 130px; */
+            /* margin-left: 40px; */
+            display: block;
+            margin-bottom: 40px;
+            padding: 5px;
+            padding-bottom: 20px;
+            width: auto;
+            height: auto;
+            /* float: right; */
+            text-align: center;
+        }
+        
+        .fm input {
+            width: 200px;
+            height: 30px;
+            border-radius: 5px;
+            border: solid 1px rgb(68 65 65 / 33%);
+            margin: 10px;
+        }
+
+        .fm input:hover {
+            border: 1px solid #0866ff;
+        }
+
+        .but {
+            width: 200px;
+            height: 30px;
+            margin: 10px;
+            background-color: #0866ff;
+            font-weight: bold;
+            color: white;
+            font-size: 15px;
+            border: 2px solid #0866ff;
+            border-radius: 4px;
+        }
+
+        .but:hover {
+            background-color: #034abd;
+            border: #034abd;
+        }
+
+        .but2 {
+            border-radius: 4px;
+            margin-top: 20px;
+            width: 150px;
+            height: 33px;
+            background-color: #36a420;
+            font-weight: bold;
+            font-size: 10px;
+            color: white;
+            border: 2px solid #36a420;
+        }
+
+        .but2:hover {
+            background-color: rgb(8, 155, 8);
+            border: rgb(8, 155, 8);
+        }
+
+        .fm a {
+            text-decoration: none;
+            font-size: 10px;
+            color: #0866ff;
+            line-height: 10px ;
+        }
+        .fm a:hover{
+            text-decoration: underline;
+
+        } 
+        .com {
+            text-align: center;
+             color: gray;
+             font-size: 10px;
+            /* display: flex; */
+        }
+
+        .com a {
+            text-decoration: none;
+            color: black;
+            padding-top: 15px;
+            /* font-weight: bold; */
+        }
+
+        footer {
+            /* border: 2px solid black; */
+            /* box-shadow: 0 -1px 2px gray; */
+            background-color: white;
+            margin-top: 195px;
+            color: gray;
+            font-size: 9px;
+            width: auto;
+            padding: 12px;
+            display: block;
+        }
+        .last {
+            display: flex;
+            float: left;
+            text-align: center;
+            letter-spacing: normal;
+            /* padding: 30px; */
+        }
+        li {
+            list-style-type: none;
+            margin: 2px;
+        }
+        li:hover{
+            text-decoration: underline;
+        }
+        .last li a {
+            text-decoration: none;
+            display: inline-block;
+            color: gray;
+        }
+
+        .next {
+            width: 20px;
+            height: 20px;
+            padding: 0px;
+            text-align: center;
+        }
+        .next2{
+            display: flex;
+            /* float: left; */
+        }
+        .next2 li a{
+            text-decoration: none;
+            color: gray;
+        }
+        .Email{
+            padding-left: 10px;
+            font-size: 10px;
+        }
+        .pass{
+            padding-left: 10px;
+            font-size: 10px;
+        }
+        }
+        @media(min-width:500px) and (max-width:20000px){
+            .container {
             display: flex;
             padding-top: 140px;
             box-sizing: border-box;
@@ -52,17 +232,17 @@
             box-shadow: 1px 1px 5px rgb(68 65 65 / 33%);
             ;
             /* margin-top: 130px; */
-            margin-left: 40px;
-            display: block;
+            /* margin-left: 40px; */
+            display: inline-block;
             margin-bottom: 40px;
             padding: 5px;
             padding-bottom: 20px;
             width: auto;
-            height: 320px;
+            height:auto;
             float: right;
             text-align: center;
         }
-
+        
         .fm input {
             width: 350px;
             height: 45px;
@@ -77,7 +257,7 @@
 
         .but {
             width: 350px;
-            height: 48px;
+            height: 45px;
             margin: 10px;
             background-color: #0866ff;
             font-weight: bold;
@@ -111,7 +291,7 @@
 
         .fm a {
             text-decoration: none;
-            font-size: small;
+            font-size: 15px;
             color: #0866ff;
             line-height: 10px ;
         }
@@ -141,6 +321,7 @@
             font-size: medium;
             width: auto;
             padding: 60px;
+            display: block;
         }
         .last {
             display: flex;
@@ -184,7 +365,8 @@
             padding-left: 10px;
             font-size: medium;
         }
-    </style>
+        }</style>
+    <!-- <link rel="stylesheet" href="fb2.css"> -->
 </head>
 
 <body>
@@ -211,7 +393,7 @@
         </form>
             <div class="com">
                 <a href="#">Creat a page</a>&nbsp;for a celebrity, brand or business
-                <!-- <p>for a celebrity, brand or business</p> -->
+                
             </div>
     </div>
     </div>                                         
@@ -266,4 +448,4 @@
     </footer>
 </body>
 
-</html>
+</html>  
